@@ -25,3 +25,4 @@ let empty = null;
 // 5. undefined Type
 let none;
 console.log(none);
+//자료형
