@@ -19,3 +19,8 @@ let varC = (value) => {
 };
 
 console.log(varC(10));
+// 3. 콜백 함수
+function funcD(callback) {
+  let value = 100;
+  callback(value);
+}
