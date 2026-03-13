@@ -18,7 +18,7 @@ function funcA(p1, p2, p3) {
 
 funcA(...arr1);
 
-fuction funcB(one, two, ...rest)  {
+function funcB(one, two, ...rest)  {
   console.log(rest);
 
 }
