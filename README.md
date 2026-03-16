@@ -1,6 +1,6 @@
 # onebite-react
 
-JavaScript / React 학습 기록
+JavaScript / React 학습
 
 ## 폴더 구조
 - section01/
