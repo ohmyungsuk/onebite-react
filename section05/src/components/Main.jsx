@@ -1,9 +1,25 @@
+import "./Main.css";
 const Main = () => {
-    return (
-        <Main>
-            <h1>main</h1>
-        </Main>
-    );
+  const user = {
+    name: "오명석",
+    isLogin: true,
+  };
+
+  if (user.isLogin) {
+    return <div className="logout">로그아웃</div>;
+  } else {
+    return <div>로그인</div>
+  }
+
+// return (
+//       <>
+//          {user.isLogin ? (
+//             <div>로그아웃</div>
+//           ) : (
+//              <div>로그인</div>
+//       )}
+//     </> 
+//   );
 };
 
-export default main;
+export default Main;
